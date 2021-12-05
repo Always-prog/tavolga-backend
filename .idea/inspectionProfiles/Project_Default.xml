@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="django-swag-auth" />
+            <item index="1" class="java.lang.String" itemvalue="django" />
+            <item index="2" class="java.lang.String" itemvalue="pycurl" />
+            <item index="3" class="java.lang.String" itemvalue="Rust" />
+            <item index="4" class="java.lang.String" itemvalue="uwsgi" />
+            <item index="5" class="java.lang.String" itemvalue="google-cloud-bigquery" />
+            <item index="6" class="java.lang.String" itemvalue="docsie-universal-doc-importer" />
+            <item index="7" class="java.lang.String" itemvalue="firebase-admin" />
+            <item index="8" class="java.lang.String" itemvalue="six" />
+            <item index="9" class="java.lang.String" itemvalue="google-cloud-pubsub" />
+            <item index="10" class="java.lang.String" itemvalue="python-levenshtein" />
+            <item index="11" class="java.lang.String" itemvalue="django-utils-six" />
+            <item index="12" class="java.lang.String" itemvalue="google-api-core" />
+            <item index="13" class="java.lang.String" itemvalue="psutil" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
