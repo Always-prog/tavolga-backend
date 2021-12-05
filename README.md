@@ -45,9 +45,9 @@ Backend часть, написанная на Django Rest Framework.<br>
 <br>
 <br>
 Административные ссылки backendа:<br>
- - LOGIN: <code><IP>:8000/accounts/login/</code><br>
- - LOGOUT: <code><IP>:8000/accounts/logout/</code><br>
- - ADMIN PANEL: <code><IP>:8000/admin/</code><br>
+ - LOGIN: <code>IP:8000/accounts/login/</code><br>
+ - LOGOUT: <code>IP:8000/accounts/logout/</code><br>
+ - ADMIN PANEL: <code>IP:8000/admin/</code><br>
 
 
 
