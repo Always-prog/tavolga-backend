@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D02FCDC275CA35A006962F9 /* ReitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02FCDB275CA35A006962F9 /* ReitCell.swift */; };
+		1D02FCDE275CA36A006962F9 /* ReitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02FCDD275CA36A006962F9 /* ReitController.swift */; };
+		1D837D6B275BA5E900CFEFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D837D6A275BA5E900CFEFEA /* Assets.xcassets */; };
+		1DD060E2275CB727000D944A /* RepoKrit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD060E1275CB727000D944A /* RepoKrit.swift */; };
+		1DD060E5275CCB0E000D944A /* SvazView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD060E4275CCB0E000D944A /* SvazView.swift */; };
+		1DF40413275B40AD00C8F9A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40412275B40AD00C8F9A6 /* AppDelegate.swift */; };
+		1DF40415275B40AD00C8F9A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40414275B40AD00C8F9A6 /* SceneDelegate.swift */; };
+		1DF40417275B40AD00C8F9A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40416275B40AD00C8F9A6 /* ViewController.swift */; };
+		1DF4041A275B40AD00C8F9A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF40418275B40AD00C8F9A6 /* Main.storyboard */; };
+		1DF4041F275B40AD00C8F9A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF4041D275B40AD00C8F9A6 /* LaunchScreen.storyboard */; };
+		1DF4042A275B40AD00C8F9A6 /* SamaraHakatonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40429275B40AD00C8F9A6 /* SamaraHakatonTests.swift */; };
+		1DF40434275B40AD00C8F9A6 /* SamaraHakatonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40433275B40AD00C8F9A6 /* SamaraHakatonUITests.swift */; };
+		1DF40436275B40AD00C8F9A6 /* SamaraHakatonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40435275B40AD00C8F9A6 /* SamaraHakatonUITestsLaunchTests.swift */; };
+		1DF40445275B583400C8F9A6 /* KriteriiTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40443275B583400C8F9A6 /* KriteriiTableController.swift */; };
+		1DF40446275B583400C8F9A6 /* KriteriiTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF40444275B583400C8F9A6 /* KriteriiTableView.xib */; };
+		1DF40448275B766400C8F9A6 /* CustomTableKriteriiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40447275B766400C8F9A6 /* CustomTableKriteriiCell.swift */; };
+		1DF4044C275B787D00C8F9A6 /* StudentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF4044B275B787D00C8F9A6 /* StudentsController.swift */; };
+		1DF4044E275B789F00C8F9A6 /* NominationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF4044D275B789F00C8F9A6 /* NominationsController.swift */; };
+		1DF40450275B792A00C8F9A6 /* StudentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF4044F275B792A00C8F9A6 /* StudentsCell.swift */; };
+		1DF40452275B794F00C8F9A6 /* NominationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40451275B794F00C8F9A6 /* NominationsCell.swift */; };
+		1DF40455275B7ABF00C8F9A6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40454275B7ABF00C8F9A6 /* InfoView.swift */; };
+		1DF40458275B7BF000C8F9A6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40457275B7BF000C8F9A6 /* MainView.swift */; };
+		1DF40469275B89F300C8F9A6 /* KonkursTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40468275B89F300C8F9A6 /* KonkursTableController.swift */; };
+		1DF4046B275B8A0200C8F9A6 /* KonkursCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF4046A275B8A0200C8F9A6 /* KonkursCell.swift */; };
+		1DF40471275B978700C8F9A6 /* MainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40470275B978700C8F9A6 /* MainArray.swift */; };
+		1DF40473275B9B3200C8F9A6 /* RepoMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40472275B9B3200C8F9A6 /* RepoMain.swift */; };
+		1DF40475275B9C3E00C8F9A6 /* KritStud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF40474275B9C3E00C8F9A6 /* KritStud.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DF40426275B40AD00C8F9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF40407275B40AD00C8F9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF4040E275B40AD00C8F9A6;
+			remoteInfo = SamaraHakaton;
+		};
+		1DF40430275B40AD00C8F9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF40407275B40AD00C8F9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF4040E275B40AD00C8F9A6;
+			remoteInfo = SamaraHakaton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D02FCDB275CA35A006962F9 /* ReitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReitCell.swift; sourceTree = "<group>"; };
+		1D02FCDD275CA36A006962F9 /* ReitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReitController.swift; sourceTree = "<group>"; };
+		1D837D6A275BA5E900CFEFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		1DD060E1275CB727000D944A /* RepoKrit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoKrit.swift; sourceTree = "<group>"; };
+		1DD060E4275CCB0E000D944A /* SvazView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvazView.swift; sourceTree = "<group>"; };
+		1DF4040F275B40AD00C8F9A6 /* SamaraHakaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamaraHakaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF40412275B40AD00C8F9A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DF40414275B40AD00C8F9A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DF40416275B40AD00C8F9A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DF40419275B40AD00C8F9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DF4041E275B40AD00C8F9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DF40420275B40AD00C8F9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF40425275B40AD00C8F9A6 /* SamaraHakatonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamaraHakatonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF40429275B40AD00C8F9A6 /* SamaraHakatonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraHakatonTests.swift; sourceTree = "<group>"; };
+		1DF4042F275B40AD00C8F9A6 /* SamaraHakatonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamaraHakatonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF40433275B40AD00C8F9A6 /* SamaraHakatonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraHakatonUITests.swift; sourceTree = "<group>"; };
+		1DF40435275B40AD00C8F9A6 /* SamaraHakatonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaraHakatonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DF40443275B583400C8F9A6 /* KriteriiTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KriteriiTableController.swift; sourceTree = "<group>"; };
+		1DF40444275B583400C8F9A6 /* KriteriiTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KriteriiTableView.xib; sourceTree = "<group>"; };
+		1DF40447275B766400C8F9A6 /* CustomTableKriteriiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableKriteriiCell.swift; sourceTree = "<group>"; };
+		1DF4044B275B787D00C8F9A6 /* StudentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsController.swift; sourceTree = "<group>"; };
+		1DF4044D275B789F00C8F9A6 /* NominationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NominationsController.swift; sourceTree = "<group>"; };
+		1DF4044F275B792A00C8F9A6 /* StudentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsCell.swift; sourceTree = "<group>"; };
+		1DF40451275B794F00C8F9A6 /* NominationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NominationsCell.swift; sourceTree = "<group>"; };
+		1DF40454275B7ABF00C8F9A6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		1DF40457275B7BF000C8F9A6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1DF40468275B89F300C8F9A6 /* KonkursTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonkursTableController.swift; sourceTree = "<group>"; };
+		1DF4046A275B8A0200C8F9A6 /* KonkursCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonkursCell.swift; sourceTree = "<group>"; };
+		1DF40470275B978700C8F9A6 /* MainArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainArray.swift; sourceTree = "<group>"; };
+		1DF40472275B9B3200C8F9A6 /* RepoMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoMain.swift; sourceTree = "<group>"; };
+		1DF40474275B9C3E00C8F9A6 /* KritStud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KritStud.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF4040C275B40AD00C8F9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF40422275B40AD00C8F9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF4042C275B40AD00C8F9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DD060E3275CCAF6000D944A /* svaz */ = {
+			isa = PBXGroup;
+			children = (
+				1DD060E4275CCB0E000D944A /* SvazView.swift */,
+			);
+			path = svaz;
+			sourceTree = "<group>";
+		};
+		1DF40406275B40AD00C8F9A6 = {
+			isa = PBXGroup;
+			children = (
+				1DF40411275B40AD00C8F9A6 /* SamaraHakaton */,
+				1DF40428275B40AD00C8F9A6 /* SamaraHakatonTests */,
+				1DF40432275B40AD00C8F9A6 /* SamaraHakatonUITests */,
+				1DF40410275B40AD00C8F9A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DF40410275B40AD00C8F9A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DF4040F275B40AD00C8F9A6 /* SamaraHakaton.app */,
+				1DF40425275B40AD00C8F9A6 /* SamaraHakatonTests.xctest */,
+				1DF4042F275B40AD00C8F9A6 /* SamaraHakatonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DF40411275B40AD00C8F9A6 /* SamaraHakaton */ = {
+			isa = PBXGroup;
+			children = (
+				1DD060E3275CCAF6000D944A /* svaz */,
+				1DF40467275B89D300C8F9A6 /* Konkurs */,
+				1DF40460275B827E00C8F9A6 /* Repo */,
+				1DF40459275B80A200C8F9A6 /* Models */,
+				1DF40456275B7BDB00C8F9A6 /* Registration */,
+				1DF40453275B7AA500C8F9A6 /* InfoAssessor */,
+				1DF4044A275B786000C8F9A6 /* Nominations */,
+				1DF40449275B785400C8F9A6 /* Students */,
+				1DF40442275B581400C8F9A6 /* Kriterii */,
+				1DF40412275B40AD00C8F9A6 /* AppDelegate.swift */,
+				1DF40414275B40AD00C8F9A6 /* SceneDelegate.swift */,
+				1DF40416275B40AD00C8F9A6 /* ViewController.swift */,
+				1DF40418275B40AD00C8F9A6 /* Main.storyboard */,
+				1DF4041D275B40AD00C8F9A6 /* LaunchScreen.storyboard */,
+				1DF40420275B40AD00C8F9A6 /* Info.plist */,
+				1D837D6A275BA5E900CFEFEA /* Assets.xcassets */,
+			);
+			path = SamaraHakaton;
+			sourceTree = "<group>";
+		};
+		1DF40428275B40AD00C8F9A6 /* SamaraHakatonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DF40429275B40AD00C8F9A6 /* SamaraHakatonTests.swift */,
+			);
+			path = SamaraHakatonTests;
+			sourceTree = "<group>";
+		};
+		1DF40432275B40AD00C8F9A6 /* SamaraHakatonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DF40433275B40AD00C8F9A6 /* SamaraHakatonUITests.swift */,
+				1DF40435275B40AD00C8F9A6 /* SamaraHakatonUITestsLaunchTests.swift */,
+			);
+			path = SamaraHakatonUITests;
+			sourceTree = "<group>";
+		};
+		1DF40442275B581400C8F9A6 /* Kriterii */ = {
+			isa = PBXGroup;
+			children = (
+				1DF40443275B583400C8F9A6 /* KriteriiTableController.swift */,
+				1DF40444275B583400C8F9A6 /* KriteriiTableView.xib */,
+				1DF40447275B766400C8F9A6 /* CustomTableKriteriiCell.swift */,
+			);
+			path = Kriterii;
+			sourceTree = "<group>";
+		};
+		1DF40449275B785400C8F9A6 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				1DF4044B275B787D00C8F9A6 /* StudentsController.swift */,
+				1DF4044F275B792A00C8F9A6 /* StudentsCell.swift */,
+				1D02FCDB275CA35A006962F9 /* ReitCell.swift */,
+				1D02FCDD275CA36A006962F9 /* ReitController.swift */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		1DF4044A275B786000C8F9A6 /* Nominations */ = {
+			isa = PBXGroup;
+			children = (
+				1DF4044D275B789F00C8F9A6 /* NominationsController.swift */,
+				1DF40451275B794F00C8F9A6 /* NominationsCell.swift */,
+			);
+			path = Nominations;
+			sourceTree = "<group>";
+		};
+		1DF40453275B7AA500C8F9A6 /* InfoAssessor */ = {
+			isa = PBXGroup;
+			children = (
+				1DF40454275B7ABF00C8F9A6 /* InfoView.swift */,
+			);
+			path = InfoAssessor;
+			sourceTree = "<group>";
+		};
+		1DF40456275B7BDB00C8F9A6 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				1DF40457275B7BF000C8F9A6 /* MainView.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		1DF40459275B80A200C8F9A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DF40470275B978700C8F9A6 /* MainArray.swift */,
+				1DF40474275B9C3E00C8F9A6 /* KritStud.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DF40460275B827E00C8F9A6 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				1DF40472275B9B3200C8F9A6 /* RepoMain.swift */,
+				1DD060E1275CB727000D944A /* RepoKrit.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		1DF40467275B89D300C8F9A6 /* Konkurs */ = {
+			isa = PBXGroup;
+			children = (
+				1DF40468275B89F300C8F9A6 /* KonkursTableController.swift */,
+				1DF4046A275B8A0200C8F9A6 /* KonkursCell.swift */,
+			);
+			path = Konkurs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DF4040E275B40AD00C8F9A6 /* SamaraHakaton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF40439275B40AD00C8F9A6 /* Build configuration list for PBXNativeTarget "SamaraHakaton" */;
+			buildPhases = (
+				1DF4040B275B40AD00C8F9A6 /* Sources */,
+				1DF4040C275B40AD00C8F9A6 /* Frameworks */,
+				1DF4040D275B40AD00C8F9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamaraHakaton;
+			productName = SamaraHakaton;
+			productReference = 1DF4040F275B40AD00C8F9A6 /* SamaraHakaton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DF40424275B40AD00C8F9A6 /* SamaraHakatonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF4043C275B40AD00C8F9A6 /* Build configuration list for PBXNativeTarget "SamaraHakatonTests" */;
+			buildPhases = (
+				1DF40421275B40AD00C8F9A6 /* Sources */,
+				1DF40422275B40AD00C8F9A6 /* Frameworks */,
+				1DF40423275B40AD00C8F9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF40427275B40AD00C8F9A6 /* PBXTargetDependency */,
+			);
+			name = SamaraHakatonTests;
+			productName = SamaraHakatonTests;
+			productReference = 1DF40425275B40AD00C8F9A6 /* SamaraHakatonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DF4042E275B40AD00C8F9A6 /* SamaraHakatonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF4043F275B40AD00C8F9A6 /* Build configuration list for PBXNativeTarget "SamaraHakatonUITests" */;
+			buildPhases = (
+				1DF4042B275B40AD00C8F9A6 /* Sources */,
+				1DF4042C275B40AD00C8F9A6 /* Frameworks */,
+				1DF4042D275B40AD00C8F9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF40431275B40AD00C8F9A6 /* PBXTargetDependency */,
+			);
+			name = SamaraHakatonUITests;
+			productName = SamaraHakatonUITests;
+			productReference = 1DF4042F275B40AD00C8F9A6 /* SamaraHakatonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF40407275B40AD00C8F9A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1DF4040E275B40AD00C8F9A6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					1DF40424275B40AD00C8F9A6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1DF4040E275B40AD00C8F9A6;
+					};
+					1DF4042E275B40AD00C8F9A6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1DF4040E275B40AD00C8F9A6;
+					};
+				};
+			};
+			buildConfigurationList = 1DF4040A275B40AD00C8F9A6 /* Build configuration list for PBXProject "SamaraHakaton" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DF40406275B40AD00C8F9A6;
+			productRefGroup = 1DF40410275B40AD00C8F9A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DF4040E275B40AD00C8F9A6 /* SamaraHakaton */,
+				1DF40424275B40AD00C8F9A6 /* SamaraHakatonTests */,
+				1DF4042E275B40AD00C8F9A6 /* SamaraHakatonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF4040D275B40AD00C8F9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D837D6B275BA5E900CFEFEA /* Assets.xcassets in Resources */,
+				1DF4041F275B40AD00C8F9A6 /* LaunchScreen.storyboard in Resources */,
+				1DF4041A275B40AD00C8F9A6 /* Main.storyboard in Resources */,
+				1DF40446275B583400C8F9A6 /* KriteriiTableView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF40423275B40AD00C8F9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF4042D275B40AD00C8F9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF4040B275B40AD00C8F9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF40417275B40AD00C8F9A6 /* ViewController.swift in Sources */,
+				1DD060E2275CB727000D944A /* RepoKrit.swift in Sources */,
+				1DF4044C275B787D00C8F9A6 /* StudentsController.swift in Sources */,
+				1DF40473275B9B3200C8F9A6 /* RepoMain.swift in Sources */,
+				1DF40475275B9C3E00C8F9A6 /* KritStud.swift in Sources */,
+				1DF40413275B40AD00C8F9A6 /* AppDelegate.swift in Sources */,
+				1DF4046B275B8A0200C8F9A6 /* KonkursCell.swift in Sources */,
+				1DF40448275B766400C8F9A6 /* CustomTableKriteriiCell.swift in Sources */,
+				1D02FCDE275CA36A006962F9 /* ReitController.swift in Sources */,
+				1DF40415275B40AD00C8F9A6 /* SceneDelegate.swift in Sources */,
+				1DF4044E275B789F00C8F9A6 /* NominationsController.swift in Sources */,
+				1DF40471275B978700C8F9A6 /* MainArray.swift in Sources */,
+				1DD060E5275CCB0E000D944A /* SvazView.swift in Sources */,
+				1DF40445275B583400C8F9A6 /* KriteriiTableController.swift in Sources */,
+				1DF40458275B7BF000C8F9A6 /* MainView.swift in Sources */,
+				1DF40450275B792A00C8F9A6 /* StudentsCell.swift in Sources */,
+				1DF40455275B7ABF00C8F9A6 /* InfoView.swift in Sources */,
+				1DF40452275B794F00C8F9A6 /* NominationsCell.swift in Sources */,
+				1DF40469275B89F300C8F9A6 /* KonkursTableController.swift in Sources */,
+				1D02FCDC275CA35A006962F9 /* ReitCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF40421275B40AD00C8F9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF4042A275B40AD00C8F9A6 /* SamaraHakatonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF4042B275B40AD00C8F9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF40436275B40AD00C8F9A6 /* SamaraHakatonUITestsLaunchTests.swift in Sources */,
+				1DF40434275B40AD00C8F9A6 /* SamaraHakatonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DF40427275B40AD00C8F9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF4040E275B40AD00C8F9A6 /* SamaraHakaton */;
+			targetProxy = 1DF40426275B40AD00C8F9A6 /* PBXContainerItemProxy */;
+		};
+		1DF40431275B40AD00C8F9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF4040E275B40AD00C8F9A6 /* SamaraHakaton */;
+			targetProxy = 1DF40430275B40AD00C8F9A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DF40418275B40AD00C8F9A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF40419275B40AD00C8F9A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DF4041D275B40AD00C8F9A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF4041E275B40AD00C8F9A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DF40437275B40AD00C8F9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DF40438275B40AD00C8F9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DF4043A275B40AD00C8F9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W53T2K88YK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SamaraHakaton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GB.SamaraHakaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DF4043B275B40AD00C8F9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W53T2K88YK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SamaraHakaton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GB.SamaraHakaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DF4043D275B40AD00C8F9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W53T2K88YK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GB.SamaraHakatonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamaraHakaton.app/SamaraHakaton";
+			};
+			name = Debug;
+		};
+		1DF4043E275B40AD00C8F9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W53T2K88YK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GB.SamaraHakatonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamaraHakaton.app/SamaraHakaton";
+			};
+			name = Release;
+		};
+		1DF40440275B40AD00C8F9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W53T2K88YK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GB.SamaraHakatonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SamaraHakaton;
+			};
+			name = Debug;
+		};
+		1DF40441275B40AD00C8F9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W53T2K88YK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GB.SamaraHakatonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SamaraHakaton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF4040A275B40AD00C8F9A6 /* Build configuration list for PBXProject "SamaraHakaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF40437275B40AD00C8F9A6 /* Debug */,
+				1DF40438275B40AD00C8F9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF40439275B40AD00C8F9A6 /* Build configuration list for PBXNativeTarget "SamaraHakaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF4043A275B40AD00C8F9A6 /* Debug */,
+				1DF4043B275B40AD00C8F9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF4043C275B40AD00C8F9A6 /* Build configuration list for PBXNativeTarget "SamaraHakatonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF4043D275B40AD00C8F9A6 /* Debug */,
+				1DF4043E275B40AD00C8F9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF4043F275B40AD00C8F9A6 /* Build configuration list for PBXNativeTarget "SamaraHakatonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF40440275B40AD00C8F9A6 /* Debug */,
+				1DF40441275B40AD00C8F9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DF40407275B40AD00C8F9A6 /* Project object */;
+}
