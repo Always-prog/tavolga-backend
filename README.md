@@ -8,7 +8,7 @@ Backend часть, написанная на Django Rest Framework.<br>
 <br>
 2. Скачайте pgAdmin4, запустите базу на PostgreSQL. Ссылка на скачивание: https://www.pgadmin.org/download/<br>
 3. В <code>settings.py</code> приложения Django, укажите доступы к запущенной базой данных PostgreSQL:<br>
-<code language="python">
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -19,9 +19,10 @@ DATABASES = {
         'PORT': '<порт>',
     }
 }
-</code><br>
+```
+<br>
 Пример:<br>
-  <code language="python">
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -33,7 +34,8 @@ DATABASES = {
     }
 }
 
-</code>
+```
+<br>
 4. Выполните команды: <br>
 <code>py manage.py makemigrations</code><br>
 <code>py manage.py migrate</code><br>
