@@ -41,7 +41,13 @@ Backend часть, написанная на Django Rest Framework.<br>
  - Номинации	<br>
  - Оценки	<br>
  - Профили пользователей<br>	
-
+<br>
+<br>
+<br>
+Административные ссылки backendа:<br>
+ - LOGIN: <IP>:8000/accounts/login/
+ - LOGOUT: <IP>:8000/accounts/logout/
+ - ADMIN PANEL: <IP>:8000/admin/
 
 
 
