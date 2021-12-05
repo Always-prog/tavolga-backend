@@ -21,6 +21,8 @@ Backend часть, написанная на Django Rest Framework.<br>
 4. Выполните команды: <br>
 <code>py manage.py makemigrations</code><br>
 <code>py manage.py migrate</code><br>
+5. Запустите сервер<br>
+<code>py manage.py runserver:8000</code>
 
 
 
