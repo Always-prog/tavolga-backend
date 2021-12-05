@@ -55,7 +55,7 @@ def profile(request):
     <center>
 
     <h2>{info.get('role')}<br></h2>
-    <img src="{url}" height="200" alt="Фотография пользователя не выбрана"></img>
+    <img src="{url}" height="200" alt="Фотография пользователя не выбрана"></img><br><input type="file">
     <h3>
     Пользователь: {info.get('username')}<br>
     Имя: {info.get('first_name')}<br>
